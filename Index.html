@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Edelberg - Infoprodutos que Transformam Vidas</title>
+    <meta name="description" content="Descubra infoprodutos exclusivos de Gabriel Edelberg: cursos, e-books e mentorias para marketing, finanças e desenvolvimento pessoal. Garantia de 30 dias!">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .fade-in { animation: fadeIn 1s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        .sticky-cta { position: fixed; bottom: 20px; right: 20px; z-index: 1000; }
+        @media (max-width: 768px) { .sticky-cta { bottom: 10px; right: 10px; } }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen">
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-indigo-600 to-purple-700 text-white py-20 px-4">
+        <div class="max-w-6xl mx-auto text-center fade-in">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6">Gabriel Edelberg</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Infoprodutos Premium para Você Escalar Seu Negócio Digital e Alcançar Liberdade Financeira</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+                <button onclick="scrollToCheckout()" class="bg-yellow-400 hover:bg-yellow-500 text-indigo-900 px-12 py-4 rounded-full text-xl font-semibold shadow-2xl transform hover:scale-105 transition-all">Quero Meu Acesso Agora</button>
+                <a href="#video" class="border-2 border-white px-12 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-indigo-600 transition-all">Ver Demonstração</a>
+            </div>
+            <div class="text-sm opacity-90">🚀 Mais de 5.000 alunos transformados | Oferta por tempo limitado</div>
+        </div>
+    </section>
+
+    <!-- Problema -->
+    <section id="problema" class="py-20 px-4 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16 text-gray-800">Você Está Cansado Disso?</h2>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="p-8">
+                    <div class="text-4xl mb-4">😩</div>
+                    <h3 class="text-xl font-semibold mb-4">Tráfego Caro e Ineficiente</h3>
+                    <p>Gastando fortunas em anúncios sem retorno garantido.</p>
+                </div>
+                <div class="p-8">
+                    <div class="text-4xl mb-4">⏳</div>
+                    <h3 class="text-xl font-semibold mb-4">Métodos Complicados</h3>
+                    <p>Técnicas complexas que não funcionam para iniciantes.</p>
+                </div>
+                <div class="p-8">
+                    <div class="text-4xl mb-4">💸</div>
+                    <h3 class="text-xl font-semibold mb-4">Vendas Zeradas</h3>
+                    <p>Meses sem fechar uma única venda online.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solução / Produtos -->
+    <section id="produtos" class="py-20 px-4 bg-gradient-to-r from-emerald-50 to-blue-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800">Meus Infoprodutos Exclusivos</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Produto 1 -->
+                <div class="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all fade-in">
+                    <img src="https://via.placeholder.com/400x250/4F46E5/FFFFFF?text=Curso+Mestre+do+Tráfego" class="w-full rounded-xl mb-6">
+                    <h3 class="text-2xl font-bold mb-4 text-indigo-600">Mestre do Tráfego Pago</h3>
+                    <ul class="space-y-2 mb-6 text-gray-700">
+                        <li>• Estratégias ROAS 10x comprovadas</li>
+                        <li>• Funis de alta conversão</li>
+                        <li>• Pixel e remarketing avançado</li>
+                    </ul>
+                    <div class="text-3xl font-bold text-emerald-600 mb-4">R$ 297</div>
+                    <button onclick="scrollToCheckout()" class="w-full bg-indigo-600 text-white py-4 rounded-xl font-semibold hover:bg-indigo-700 transition-all">Quero o Curso</button>
+                </div>
+                <!-- Produto 2 -->
+                <div class="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all fade-in">
+                    <img src="https://via.placeholder.com/400x250/059669/FFFFFF?text=E-book+Finanças+Pessoais" class="w-full rounded-xl mb-6">
+                    <h3 class="text-2xl font-bold mb-4 text-emerald-600">Guia Finanças Imparáveis</h3>
+                    <ul class="space-y-2 mb-6 text-gray-700">
+                        <li>• Investimentos para iniciantes</li>
+                        <li>• Controle financeiro automático</li>
+                        <li>• Renda passiva em 90 dias</li>
+                    </ul>
+                    <div class="text-3xl font-bold text-emerald-600 mb-4">R$ 97</div>
+                    <button onclick="scrollToCheckout()" class="w-full bg-emerald-600 text-white py-4 rounded-xl font-semibold hover:bg-emerald-700 transition-all">Baixar Agora</button>
+                </div>
+                <!-- Produto 3 -->
+                <div class="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all fade-in">
+                    <img src="https://via.placeholder.com/400x250/E11D48/FFFFFF?text=Mentoria+VIP" class="w-full rounded-xl mb-6">
+                    <h3 class="text-2xl font-bold mb-4 text-red-600">Mentoria VIP Escalada</h3>
+                    <ul class="space-y-2 mb-6 text-gray-700">
+                        <li>• 8 semanas 1:1 com Gabriel</li>
+                        <li>• Análise completa do negócio</li>
+                        <li>• Suporte ilimitado WhatsApp</li>
+                    </ul>
+                    <div class="text-3xl font-bold text-red-600 mb-4">R$ 1.997</div>
+                    <button onclick="scrollToCheckout()" class="w-full bg-red-600 text-white py-4 rounded-xl font-semibold hover:bg-red-700 transition-all">Garantir Vaga</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Provas Sociais -->
+    <section id="depoimentos" class="py-20 px-4 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16 text-gray-800">Resultados Reais dos Alunos</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center p-6">
+                    <img src="https://via.placeholder.com/80x80/10B981/FFFFFF?text=MA" class="w-20 h-20 rounded-full mx-auto mb-4">
+                    <p class="italic mb-4">"Faturei R$ 47k no primeiro mês!"</p>
+                    <div class="font-semibold">Maria Andrade</div>
+                </div>
+                <div class="text-center p-6">
+                    <img src="https://via.placeholder.com/80x80/F59E0B/FFFFFF?text=JP" class="w-20 h-20 rounded-full mx-auto mb-4">
+                    <p class="italic mb-4">"ROAS 12x com as estratégias!"</p>
+                    <div class="font-semibold">João Pedro</div>
+                </div>
+                <div class="text-center p-6">
+                    <img src="https://via.placeholder.com/80x80/EC4899/FFFFFF?text=LS" class="w-20 h-20 rounded-full mx-auto mb-4">
+                    <p class="italic mb-4">"Melhor investimento da vida!"</p>
+                    <div class="font-semibold">Luana Silva</div>
+                </div>
+                <div class="text-center p-6">
+                    <img src="https://via.placeholder.com/80x80/8B5CF6/FFFFFF?text=RC" class="w-20 h-20 rounded-full mx-auto mb-4">
+                    <p class="italic mb-4">"Liberdade financeira real!"</p>
+                    <div class="font-semibold">Rafael Costa</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Checkout -->
+    <section id="checkout" class="py-20 px-4 bg-gradient-to-r from-indigo-600 to-purple-700 text-white">
+        <div class="max-w-md mx-auto bg-white/10 backdrop-blur-xl rounded-3xl p-12 text-center">
+            <h2 class="text-4xl font-bold mb-8">Garantir Meu Acesso VIP</h2>
+            <div class="space-y-6">
+                <div class="bg-white/20 p-4 rounded-2xl">
+                    <div class="text-3xl font-bold mb-2" id="preco-selecionado">R$ 297</div>
+                    <div>ou 12x de R$ 29,90</div>
+                </div>
+                <form id="checkoutForm" class="space-y-4">
+                    <input type="text" placeholder="Nome Completo" class="w-full p-4 rounded-xl text-lg" required>
+                    <input type="email" placeholder="Email" class="w-full p-4 rounded-xl text-lg" required>
+                    <input type="tel" placeholder="WhatsApp (com DDD)" class="w-full p-4 rounded-xl text-lg" required>
+                    <select id="produto" class="w-full p-4 rounded-xl text-lg" onchange="updatePreco()">
+                        <option value="297">Mestre do Tráfego Pago - R$ 297</option>
+                        <option value="97">Guia Finanças - R$ 97</option>
+                        <option value="1997">Mentoria VIP - R$ 1.997</option>
+                    </select>
+                    <button type="submit" class="w-full bg-yellow-400 hover:bg-yellow-500 text-indigo-900 py-6 rounded-2xl text-xl font-bold shadow-2xl">COMPRAR AGORA COM PIX / CARTÃO</button>
+                </form>
+                <div class="text-lg">
+                    <div class="flex items-center justify-center mb-2">
+                        <div class="w-12 h-12 bg-green-400 rounded-xl flex items-center justify-center mr-3">✓</div>
+                        <span>Acesso imediato | Garantia 30 dias</span>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <div class="w-12 h-12 bg-green-400 rounded-xl flex items-center justify-center mr-3">🔒</div>
+                        <span>Compra 100% segura</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky CTA Mobile -->
+    <div class="sticky-cta md:hidden">
+        <button onclick="scrollToCheckout()" class="bg-indigo-600 text-white p-4 rounded-full shadow-2xl text-lg font-bold transform hover:scale-110 transition-all">🛒 Comprar</button>
+    </div>
+
+    <!-- Modal Obrigado -->
+    <div id="modalObrigado" class="hidden fixed inset-0 bg-black/80 flex items-center justify-center z-50">
+        <div class="bg-white rounded-3xl p-12 max-w-md mx-4 text-center">
+            <div class="text-6xl mb-8">🎉</div>
+            <h2 class="text-3xl font-bold mb-6">Obrigado, [Nome]!</h2>
+            <p class="text-xl mb-8">Seu pedido foi confirmado. Verifique seu WhatsApp para o link de acesso!</p>
+            <button onclick="closeModal()" class="bg-indigo-600 text-white px-12 py-4 rounded-2xl text-xl font-bold hover:bg-indigo-700">Fechar</button>
+        </div>
+    </div>
+
+    <script>
+        function scrollToCheckout() {
+            document.getElementById('checkout').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function updatePreco() {
+            const select = document.getElementById('produto');
+            const preco = select.value;
+            const nome = select.options[select.selectedIndex].text.split(' - ')[0];
+            document.getElementById('preco-selecionado').textContent = 'R$ ' + parseInt(preco).toLocaleString('pt-BR', {minimumFractionDigits: 0});
+        }
+
+        document.getElementById('checkoutForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            document.querySelector('#modalObrigado h2').textContent = 'Obrigado, ' + this[0].value.split(' ')[0] + '!';
+            document.getElementById('modalObrigado').classList.remove('hidden');
+            // Aqui integra com Kiwify/Hotmart
+            alert('SIMULADO: Integre com Kiwify substituindo este alert!');
+        });
+
+        function closeModal() {
+            document.getElementById('modalObrigado').classList.add('hidden');
+        }
+
+        // Contador regressivo
+        let tempo = 24 * 60 * 60; // 24h
+        setInterval(() => {
+            tempo--;
+            const horas = Math.floor(tempo / 3600);
+            const mins = Math.floor((tempo % 3600) / 60);
+            const segs = tempo % 60;
+            // Adicione um elemento de timer no HTML se quiser
+        }, 1000);
+    </script>
+</body>
+</html>
